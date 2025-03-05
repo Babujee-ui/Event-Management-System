@@ -1,0 +1,561 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* Navbar css*/
+
+/* .nav{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+} */
+
+
+.navbar {
+  background-color: rgb(89, 193, 234,0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(242, 255, 0);
+  
+}
+ 
+.nav-header{
+  padding:0 0 0 20px;
+  font-weight: bold;
+  font-family:serif;
+  font-size: x-large;
+}
+
+.navbar a {
+  color: white;
+  /* color: black; */
+  margin: 0 10px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: bold;
+}
+ .common1:hover{
+  background-color: wheat;
+  padding: 8px;
+  color: black;
+  border-radius: 10px;
+ }
+
+
+ .nomatch-img{
+  justify-content: center;
+  margin-top: 0;
+ }
+
+/* Home page css*/
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url("https://ik.imagekit.io/8pxyodyr4/imgwebkit/event/img4.jpeg?updatedAt=1740977229867");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-y:25%;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 30px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 0 20px 500px;
+  font-family:cursive;
+}
+
+.hero p {
+  font-size: 28px;
+  background: rgba(0, 0, 0, 0.6);
+  width: 55%;
+  padding: 5px 10px;
+  margin: 0px 600px;
+  border-radius: 5px;
+  font-family:cursive;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px 0 0 30%;
+}
+
+.hero button:hover {
+  background-color: skyblue;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
+}
+
+/* Event page css */
+
+.event-header{
+  text-align: center;
+}
+
+.event-search{
+  margin-top: 20px;
+  margin: 20px 0 0 37%;
+  padding: 20px 40px;
+  border-top-right-radius:0;
+  border-bottom-right-radius:0;
+}
+
+.event-btn{
+  margin-top: 20px;
+  padding: 21px 40px;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  /* width:10% ; */
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  margin: 20px 0 0 0;
+}
+
+
+
+.events {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* */
+
+.event-card {
+  background-color: white;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.event-card img {
+  width: 100%;
+  height: 400px;
+  object-fit:auto;
+  border-radius: 8px 8px 0 0;
+  padding-top: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Book-btn{
+  /* margin:0px 0 0 0px; */
+  color: white;
+  background-color: rgb(48, 48, 225);
+  padding: 5px;
+  width: 10%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.Book-btn:hover{
+  color: black;
+  background-color:skyblue;
+}
+
+
+/* event-page css */
+
+.event-title{
+  font-family: serif;
+  color:black;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.event-desc{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.event-price{
+  font-size: large;
+  font-weight: bold;
+}
+
+/* About page css */
+
+/* Header */
+.header {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+/* About Section */
+.about-section1 {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: goldenrod;
+  color: white;
+  border: 1px dotted black;
+  border-radius: 20px;
+}
+
+.about-section1 h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.about-section1 p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+  color: white;
+}
+
+.about-section2 {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px dotted black;
+  color: white;
+  background-color: goldenrod;
+  border-radius: 20px;
+}
+
+.about-section2 h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-section2 p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+  color: white;
+}
+
+/* Team Section */
+.team-section {
+  /* background-color: white; */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.team-member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
+}
+
+
+/* login page css */
+
+.login-container1{
+  background-color: rgb(136, 198, 219);
+  height:686px;
+  width:100%;
+  margin: 0%;
+  position: fixed;
+}
+.login-container2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  /* border: 1px solid black; */
+  margin: 150px 0 0px 480px;
+  height: 300px;
+  width: 500px ;
+  background-color:rgb(36, 35, 35,0.8);
+  color: white;
+  border-radius: 20px;
+}
+.login-img{
+  border-radius:50%;
+}
+table{
+  margin-left:75px ;
+}
+input{
+  padding: 10px;
+  width: 200px;
+  border-radius: 20px;
+  /* border: none; */
+  margin: 5px 0;
+}
+button{
+  padding: 5px;
+}
+
+img{
+  margin-top:-25px;
+  opacity: 0.9;
+}
+.login-btn{
+  padding: 10px;
+  color: white;
+  background-color: rgb(48, 48, 225);
+  padding: 5px;
+  width: 25%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: medium;
+  margin: 10px;
+}
+
+.login-btn:hover{
+  color: black;
+  background-color:skyblue;
+}
+
+/* signup page css */
+
+
+.signup-body{
+  background-color: rgb(136, 198, 219);
+  width: 100%;
+  height: 480px;
+  color: rgb(0, 0, 0);
+  margin: 0%;
+  padding: 12% 0 1.8% 0;
+} 
+
+
+.signup-form{
+  border: 2px solid white;
+  margin: -50px 0 0 0px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-items: center;
+  width: 32%;
+  padding: 20px;
+  height: 300px;
+  background-color:rgb(36, 35, 35,0.8);
+  color: white;
+  /* opacity: 0.9; */
+  border-radius: 20px;
+} 
+
+.signup-btn{
+  margin-left: 50px;
+  color: white;
+  background-color: rgb(48, 48, 225);
+  padding: 5px;
+  width: 60%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: medium;
+  margin:10px 0  0px 10%;
+}
+.signup-btn:hover{
+  color: black;
+  background-color:rgb(255, 255, 255);
+}
+
+
+/* Admin page css */
+
+.admin-body{
+  background-color: #000000;
+  width: 100%;
+  height: 43.5rem;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  justify-content: center;
+}
+.ad{
+  /* border: 1px solid rgb(255, 255, 255); */
+  position:relative;
+  padding: 20px 15px 20px 5px;
+  margin:25px 25px 25px 530px;
+  background-color: white;
+  color: black;
+  height: 150px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+  /* justify-self: center; */
+  /* align-content: center; */
+}
+
+
+.ad-btn{
+  margin-left:10px;
+  color: white;
+  background-color: rgb(48, 48, 225);
+  padding: 5px;
+  width: 60%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: medium;
+}
+.ad-btn:hover{
+  color: black;
+  background-color:skyblue;
+}
+
+
+/* admin=>create page css */
+
+.create-body{
+  background-color: grey;
+  height: 43.5rem;
+  margin: 0%;
+  position: relative;
+}
+
+.create-form{
+  /* border:1px solid black; */
+  height: 450px;
+  width: 400px;
+  background-color: lightgray;
+  position: absolute;
+  margin: 50px 0 0 540px;
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  font-family:monospace;
+  font-size:x-large;
+  font-weight:lighter;
+}
+
+.create-btn{
+  margin:15px 0 0   10px;
+  color: white;
+  background-color: rgb(48, 48, 225);
+  padding: 5px;
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: medium;
+}
+.create-btn:hover{
+  color: black;
+  background-color:skyblue;
+}
+
+
+.ce-header{
+  font-family:cursive;
+  font-size:larger;
+  padding: 0;
+  margin: -10px 0 0 0;
+  color: #000000;
+  font-weight: bolder;
+}
+
+
+.close{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-family:cursive;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  margin:0 10px 0 80%;
+}
