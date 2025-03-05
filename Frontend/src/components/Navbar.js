@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className='nav'>
     <nav className="navbar">
-        <p className='nav-header'>Global Events</p>
+        <img src='https://ik.imagekit.io/8pxyodyr4/imgwebkit/event/Momento-removebg-preview.png?updatedAt=1741151750102' className='nav-header'/>
         <div>
         <NavLink to='/' className='common1'>Home</NavLink>
         <NavLink to='/events' className='common1'>Events</NavLink>

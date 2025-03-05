@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { FaFacebook, FaInstagram, FaWhatsapp, FaPhone } from 'react-icons/fa';
 // import "./HomePage.css";
 
 const Home = () => {
@@ -37,7 +38,21 @@ const Home = () => {
         </div>
       </section>
       <footer className="footer">
-        <p>&copy; 2025-Local Events. All rights reserved by Global-Events.</p>
+      <div className="social-icons">
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="icon" />
+        </a>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <FaFacebook className="icon" />
+        </a>
+        <a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp className="icon" />
+        </a>
+        {/* <a href="tel:+1234567890">
+          <FaPhone className="icon" size={'20'} />
+        </a> */}
+        </div>
+        <p>&copy; 2025-Local Events. All rights reserved by Momento.</p>
       </footer>
     </div>
     

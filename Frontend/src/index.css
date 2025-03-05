@@ -39,10 +39,9 @@ body {
 }
  
 .nav-header{
-  padding:0 0 0 20px;
-  font-weight: bold;
-  font-family:serif;
-  font-size: x-large;
+  margin: -5px 0 0px 10px;
+  width: 100px;
+  height: 100px;
 }
 
 .navbar a {
@@ -125,6 +124,25 @@ body {
   padding: 16px;
   margin-top: 40px;
 }
+
+
+/* Icons-css */
+.social-icons {
+  margin: 20px;
+}
+
+.icon {
+  color: white;
+  font-size: 25px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  color: blue;
+}
+
 
 /* Event page css */
 

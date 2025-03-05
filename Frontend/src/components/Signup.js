@@ -13,8 +13,9 @@ export default function Signup() {
     setData({...Data,[e.target.name]:e.target.value})
   }
   const handlesubmit=(e)=>{
-    if(!Data){
-      console.log('err');
+    if (!Data.name || !Data.email || !Data.password) {
+      alert('All fields are required');
+      return; 
     }
     else{
     e.preventDefault()
